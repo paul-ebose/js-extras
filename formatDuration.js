@@ -1,4 +1,4 @@
-//	shout out to 30secondsofcode
+// shout out to 30secondsofcode
 
 const formatDuration = ms => {
   if (ms < 0) ms = -ms
