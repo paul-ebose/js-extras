@@ -1,7 +1,7 @@
 // shout out to 30secondsofcode
 
 const formatDuration = ms => {
-  if (ms < 0) ms = -ms
+  (ms < 0) && (ms = -ms)
   const time = {
     day: Math.floor(ms / 86400000),
     hour: Math.floor(ms / 3600000) % 24,
